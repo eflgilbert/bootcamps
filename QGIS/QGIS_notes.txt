@@ -1,0 +1,40 @@
+Vector
+- Adding vector layers as files Directories, Databases, or links
+
+Database
+  - https://lnkd.in/ga_seqg (crime reporting)
+	- Shapefile (.shp) can drag and drop or browse
+	- Buildings 
+
+Shapefiles
+	-Parcels, easements, Intesections, ROad centerlines
+	- Keep legend order in mind for visibility
+
+
+- WFS WEb feature Services Data.
+	- Hawaii, download APIs from hawaii.gov
+- start with XYZ open streetmap zoom to hawaii
+	- Maui roads https://geodata.hawaii.gov/arcgis/services/Transportation/MapServer/WFSServer?request=GetCapabilities&service=WFS
+	- Kahoolawe contours 100ft
+		-Lanai and Kahoolawe
+	- Can query attributes from the database.
+
+___________	
+
+Rasters
+- Open a file or link
+- ECW, enhanced compressed wavelet
+	- smaller datatype file
+	- images can be georeferenced within the ECW file
+	Make sure all the coordinate systems match up
+
+- WMS
+	- Web-based protocol that can stream images from a server to QGIS
+	-Renders on the server then streams a raster image
+	- Didn't change these files
+
+- DEM - Digital elevation model
+	-Raster that has elevations at each point. Can be made from LIDAR for elevation or from orthoimagery
+	_Can style and blend images together by setting the greyscale ranges to be equivalent.
+
+- Creating Contours
