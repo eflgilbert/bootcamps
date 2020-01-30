@@ -38,3 +38,23 @@ Rasters
 	_Can style and blend images together by setting the greyscale ranges to be equivalent.
 
 - Creating Contours
+  Raster>Extraction>Contour
+
+- Creating 3d Maps
+	- Can use the online projection
+	-Can use hidden DEM layer
+	- Change the scale to observe vertical spaces in greater detail
+
+- 3D Animations
+	-After selectin animation, there is a standard pan backwards from location
+	- You can set target points for whatever timestamp during the animation you want
+	- Saving it outputs all of the frames
+	- Recommended use Handbrake (I may use R in the future) to greate video or gif 
+	- For 2D animation, just make an animation from directly above the 3D map
+
+Styling data
+-Point layers
+	-Can stylize points by doing things such as changing the icon
+	- IMport an svg (like clip art) as a custom icon
+	- Set Unit to map units to keep the symbols the same size when zooming
+
