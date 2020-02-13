@@ -1,8 +1,8 @@
 Notes for a LinkedIn course: https://www.linkedin.com/learning/javascript-essential-training-3
-This will become an annotated README at the end of the course.
+<br>This will become an annotated README at the end of the course.
 
 
-# ~~Javascript Essential Training Notes~~
+# Javascript Essential Training Notes
 
 Introduction
 
