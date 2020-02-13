@@ -5,4 +5,4 @@ This repository contains files associated with independent courses I have taken 
 
 ## QGIS
 
-QGIS is an open source software for geospatial analysis and visualization. THe course I wook was available through LinkedIn Learning. 
+QGIS is an open source software for geospatial analysis and visualization. The course I took was available through LinkedIn Learning. 
