@@ -47,12 +47,15 @@ Basics
   - Console (<b>Ctrl</b>+<b>Shift</b>+<b>J</b>) is CMD for browser for on the fly changes
     - Can type commands directly
       - alert("I love Ducks!") prints "I love Ducks!" or alert(5+13) prints 18
-<br>
+
+
       ``` javascript
           var date = new Date()
           alert("Today is " + date)
       ```
+      > Today is 2/13/2020
 
+      
         - Use <b>Shift</b>+<b>Enter</b> to move down a line
         - can use console.log() instead of alert() if you don't want it in a pop-up
   - Elements tab will show you HTML structure
