@@ -53,7 +53,9 @@ Basics
           var date = new Date()
           alert("Today is " + date)
       ```
-      ```Today is: Thu Feb 13 2020 18:00:00 GMT-0600 (Central Standard Time)```
+      ```
+      Today is: Thu Feb 13 2020 18:00:00 GMT-0600 (Central Standard Time)
+      ```
 
 
         - Use <b>Shift</b>+<b>Enter</b> to move down a line
@@ -65,11 +67,20 @@ Basics
         ```JavaScript
         document.body.innerHTML= "<h1>The date today is " + date + "</h1>"
         ```
+        ```
+        The date today is Thu Feb 13 2020 18:00:00 GMT-0600 (Central Standard Time)
+        ```    
 
     - Make the date more readable by applying methods to the variable
+    
         ```JavaScript
         document.body.innerHTML= "<h1>The date today is " + date.getMonth() + "/" + date.getDate() + "/" + date.getYear() + "</h1>"
         ```
+        ```
+        The date today is 2/13/20
+        ```
+
+
 
     - JavaScript indexes start at zero!!
 
