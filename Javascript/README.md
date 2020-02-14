@@ -72,7 +72,7 @@ Basics
         ```    
 
     - Make the date more readable by applying methods to the variable
-    
+
         ```JavaScript
         document.body.innerHTML= "<h1>The date today is " + date.getMonth() + "/" + date.getDate() + "/" + date.getYear() + "</h1>"
         ```
@@ -119,8 +119,74 @@ Basics
 
 Working with Data
   - Variables
-    -
-  - Data Types
+    - name cannot start with number
+    - var declaration isn't necessary, but you may run into scoping problems
+    - Syntax:
+
+    ``` javascript
+    var variableName = assignedValue;
+
+
+    var a, b, sum;
+    a = 4;
+    b = 5;
+    sum = a+b;
+
+    ```
+
+  - Data Types (6)
+      - Numeric = regular numbers and integers;
+      - String = letters and symbols; can use \" \" or \' \'
+      - Boolean = true/false; lowercase, no quotation marks
+      - null = empty; lowercase, no quotation marks
+      - Undefined = create variable but don't set it to anything
+      - Symbol, not included here
+    - use console.log(typeof variableName) to get the variable type
+    -Exercise 03_02
+      - open console
+      ``` javascript
+
+        > console.log(typeof negInteger)
+        VM115:1 number
+        undefined
+        > console.log(typeof escQuote)
+        VM167:1 string
+        undefined
+        > console.log(typeof theSunIsWarm)
+        VM209:1 boolean
+        undefined
+        > console.log(typeof emptyInside)
+        VM262:1 object
+        undefined
+        > console.log(typeof justAnotherVariable)
+        VM310:1 undefined
+        undefined
+
+      ```
+    - Operators
+      - = is an assignment
+      - +, -, *, / ; PEMDAS; pretty standard
+      - += , -=, *= for shorthand
+      - ++ adds 1, -- subtracts 1
+        - placing operator AFTER variableName (ex. a++) changes variable assignment
+    - Strings and numbers
+      - adding numeric and string creates string
+
+      ``` javascript
+
+      var a, b, sum;
+      a = 4;
+      b = "5";
+      sum = a+b;
+
+
+      // in console
+      > sum
+      "45"
+
+      ```
+
+
 
 Functions and Objects
 
