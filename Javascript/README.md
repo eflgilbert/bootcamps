@@ -47,14 +47,20 @@ Basics
   - Console (Ctrl+SHift+J) is CMD for browser for on the fly changes
     - Can type commands directly
       - alert("I love Ducks!") prints "I love Ducks!" or alert(5+13) prints 18
-      - var date = new Date()
+
+      ``` javascript
+          var date = new Date()
           alert("Today is " + date)
+      ```
           - Use Shift+Enter to move down a line
           - can use console.log() instead of alert() if you don't want it in a pop-up
   - Elements tab will show you HTML structure
     - Start with empty head and body
     - Change the body of the HTML in console (without saving it to html file)
+    
+        ```JavaScript
         document.body.innerHTML= "<h1>The date today is " + date + "</h1>"
+        ```
     - Make the date more readable by applying methods to the variable
         document.body.innerHTML= "<h1>The date today is " + date.getMonth() + "/" + date.getDate() + "/" + date.getYear() + "</h1>"
     - JavaScript indexes start at zero!!
@@ -88,7 +94,8 @@ Basics
     - only necessary in certain situations, but helps with human readability
   - Comment liberally (same syntax as C++)
     - "//" for single line
-    - "/(asterisk) (asterisk)/" for multiline
+    - "/\* \*/" for multiline
+
 
 
 Working with Data
