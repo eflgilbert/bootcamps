@@ -43,8 +43,8 @@ Basics
   - Chrome's dev tools and Console
   - Exercise file 02_02
     - index.html is blank in chrome
-  - RightClick = X or <b>Ctrl</b>+<b>Shift</b>+<b>I</b> opens dev Tools
-  - Console (Ctrl+SHift+J) is CMD for browser for on the fly changes
+  - <b>Ctrl</b>+<b>Shift</b>+<b>I</b> opens dev Tools
+  - Console (***Ctrl***+***Shift***+***J***) is CMD for browser for on the fly changes
     - Can type commands directly
       - alert("I love Ducks!") prints "I love Ducks!" or alert(5+13) prints 18
 
