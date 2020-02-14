@@ -144,6 +144,7 @@ Working with Data
     - use console.log(typeof variableName) to get the variable type
     -Exercise 03_02
       - open console
+
       ``` javascript
 
         > console.log(typeof negInteger)
@@ -164,16 +165,17 @@ Working with Data
 
       ```
     - Operators
-      - = is an assignment
+      - = is an assignment; == is equality;
       - +, -, *, / ; PEMDAS; pretty standard
       - += , -=, *= for shorthand
       - ++ adds 1, -- subtracts 1
         - placing operator AFTER variableName (ex. a++) changes variable assignment
+
     - Strings and numbers
       - adding numeric and string creates string
 
-      ``` javascript
 
+      ``` JavaScript
       var a, b, sum;
       a = 4;
       b = "5";
@@ -183,9 +185,51 @@ Working with Data
       // in console
       > sum
       "45"
+      ```
+    - Conditionals
+      - if/else
+        - Syntax
+        ``` javascript
+        if (condition){
+          Do something;
+        }else{
+          Do something else;
+        }
+        ```
+      - equality
+        - == can compare between datatypes; === is more strict
+      - < , > , <= , >= , != , !==, and ! are all standard definitions
+      - && is and; || is or
+      - Ternary Operator (has 3 pieces)
+        - condition ? true : false
 
+      ``` javascript
+      a==b ? console.log("Match"): console.log("No match"); //make sure to comment
+
+      //is the same as
+
+      if (a==b){
+        console.log("Match");
+      }else{
+        console.log("No match");
+      }
       ```
 
+    - Arrays
+      - stores several related items; can be different datatypes
+      - starts at zero
+      - syntax
+      ``` javascript
+      var pens = new Array("red", "green", "blue");
+
+      //in console
+      > pens[2]
+      blue
+      ```
+      - Properties and methods
+        - can be accessed using a "." after the variableName
+        - properties are aspects of the object, methods are functions which can manipulate the variable
+        - good examples are listed in exercise 03_08
 
 
 Functions and Objects
