@@ -53,7 +53,7 @@ Basics
           var date = new Date()
           alert("Today is " + date)
       ```
-      ```Today is 2/13/2020```
+      ```Today is: Thu Feb 13 2020 18:00:00 GMT-0600 (Central Standard Time)```
 
 
         - Use <b>Shift</b>+<b>Enter</b> to move down a line
