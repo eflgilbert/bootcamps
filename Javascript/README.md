@@ -53,8 +53,8 @@ Basics
           alert("Today is " + date)
       ```
 
-          - Use Shift+Enter to move down a line
-          - can use console.log() instead of alert() if you don't want it in a pop-up
+        - Use Shift+Enter to move down a line
+        - can use console.log() instead of alert() if you don't want it in a pop-up
   - Elements tab will show you HTML structure
     - Start with empty head and body
     - Change the body of the HTML in console (without saving it to html file)
@@ -67,7 +67,7 @@ Basics
         ```JavaScript
         document.body.innerHTML= "<h1>The date today is " + date.getMonth() + "/" + date.getDate() + "/" + date.getYear() + "</h1>"
         ```
-        
+
     - JavaScript indexes start at zero!!
 
   - Get browser to run our JavaScript
