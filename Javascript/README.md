@@ -43,7 +43,7 @@ Basics
   - Chrome's dev tools and Console
   - Exercise file 02_02
     - index.html is blank in chrome
-  - RightClick = X or Ctrl+Shift+I opens dev Tools
+  - RightClick = X or <b>Ctrl</b>+<b>Shift</b>+<b>I</b> opens dev Tools
   - Console (Ctrl+SHift+J) is CMD for browser for on the fly changes
     - Can type commands directly
       - alert("I love Ducks!") prints "I love Ducks!" or alert(5+13) prints 18
@@ -73,7 +73,7 @@ Basics
   - Get browser to run our JavaScript
     - Can add it to HTML itself or get the webpage to read a separate JavaScript File
     - 02_03\index.html --> Exercise_inline-JavaScript.html
-      - JavaScript (<script></script>) can be placed in the:
+      - JavaScript (<b><script></script></b>) can be placed in the:
         - head - run before contents are rendered
         - body - run with elements
         - after body - run after elements are rendered
