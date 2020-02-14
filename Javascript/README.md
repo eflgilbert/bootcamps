@@ -44,16 +44,16 @@ Basics
   - Exercise file 02_02
     - index.html is blank in chrome
   - <b>Ctrl</b>+<b>Shift</b>+<b>I</b> opens dev Tools
-  - Console (***Ctrl***+***Shift***+***J***) is CMD for browser for on the fly changes
+  - Console (<b>Ctrl</b>+<b>Shift</b>+<b>J</b>) is CMD for browser for on the fly changes
     - Can type commands directly
       - alert("I love Ducks!") prints "I love Ducks!" or alert(5+13) prints 18
-
+<br>
       ``` javascript
           var date = new Date()
           alert("Today is " + date)
       ```
 
-        - Use Shift+Enter to move down a line
+        - Use <b>Shift</b>+<b>Enter</b> to move down a line
         - can use console.log() instead of alert() if you don't want it in a pop-up
   - Elements tab will show you HTML structure
     - Start with empty head and body
@@ -73,7 +73,7 @@ Basics
   - Get browser to run our JavaScript
     - Can add it to HTML itself or get the webpage to read a separate JavaScript File
     - 02_03\index.html --> Exercise_inline-JavaScript.html
-      - JavaScript (<b><script></script></b>) can be placed in the:
+      - JavaScript (<script></script>) can be placed in the:
         - head - run before contents are rendered
         - body - run with elements
         - after body - run after elements are rendered
