@@ -74,7 +74,7 @@ Basics
       - external script is script.js
         - can be referenced in the <script> using: <script src= "script.js"></script>
       - cannot be placed in the head for same reason listed above
-        - using async or defer attributes in the <script> tag can prevent render blocking
+        - using "async" or "defer" attributes in the <script> tag can prevent render blocking
 
 
 - Writing good JavaScript (things to remember)
@@ -84,14 +84,17 @@ Basics
     - Objects and Classes start with UPPERCASE
     - CONSTANTS are all caps
   - Whitespace is ignored but must be used to make code human readable
-  - End each statement witha  semicolon
+  - End each statement with a semicolon
     - only necessary in certain situations, but helps with human readability
   - Comment liberally (same syntax as C++)
     - "//" for single line
-    - "/(asterisk)" for multiline
+    - "/(asterisk) (asterisk)/" for multiline
 
 
 Working with Data
+  - Variables
+    -
+  - Data Types
 
 Functions and Objects
 
