@@ -53,9 +53,9 @@ Basics
           var date = new Date()
           alert("Today is " + date)
       ```
-      > Today is 2/13/2020
+      ```Today is 2/13/2020```
 
-      
+
         - Use <b>Shift</b>+<b>Enter</b> to move down a line
         - can use console.log() instead of alert() if you don't want it in a pop-up
   - Elements tab will show you HTML structure
